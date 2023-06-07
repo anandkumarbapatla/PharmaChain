@@ -14,7 +14,7 @@ DHTesp dht;
 #define AWS_IOT_SUBSCRIBE_TOPIC "esp32/sub"
 
 const char* ssid = "LifeEhOkaZindagi";   //Wi-Fi Name
-const char* password = "Our213Spect20!";   //Edit this line and put in your Wifi Password
+const char* password = "";   //Edit this line and put in your Wifi Password
 int count = 0;
 WiFiUDP ntpUDP;
 NTPClient timeClient(ntpUDP, "pool.ntp.org");
